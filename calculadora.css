@@ -1,0 +1,70 @@
+
+*{ 
+ 
+font-family: 'Josefin Sans', sans-serif;
+
+  
+}
+body{
+  background-image: url(alimentos) ;
+  background-attachment: fixed;
+  background-size: 250px;
+}
+h1 {
+  color:#663399;
+}
+
+
+.container, form {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  
+  
+}
+.container{
+  background-color:	#FFD700;
+  width: 400px;
+  height: 450px;
+  margin-top:100px;
+  border-radius: 10px;
+  
+}
+
+#calcular {
+  margin-top: 40px;
+  
+}
+
+#altura, #peso{
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  color:#663399;
+}
+
+#resultado{
+  margin-top: 25px;
+  font-size: 18px;
+  text-align: center;
+ color:#663399;
+}
+
+#calcular{
+  width: 130px;
+  height: 30px;
+  border-radius: 8px 8px;
+  font-size: 15px;
+  border: none;
+  background-color:#E6E6FA;
+  color: #663399;
+}
+
+p {
+  font-size: 20px;
+  color: #663399;
+}
